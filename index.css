@@ -1,0 +1,12 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(500px + 2px);
+}
+
+.tile_default {
+    width: 30px;
+    height: 30px;
+    background-color: aqua;
+    border: solid 1px black;
+}
