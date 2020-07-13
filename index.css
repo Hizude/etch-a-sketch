@@ -3,11 +3,18 @@
     font-family: 'Roboto', sans-serif;
 }
 
+#h1 { 
+    margin-top: 40px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 #container {
     display: grid;
     width: 600px;
     height: 600px;
-    margin: 2% auto;
+    margin: 20px auto;
 
     -webkit-box-shadow: 2px 10px 29px -1px rgba(209,209,209,1);
     -moz-box-shadow: 2px 10px 29px -1px rgba(209,209,209,1);
@@ -15,29 +22,30 @@
 }
 
 .cell {
-    /* background-color: #f5f5f5; perm */
-    background-color: darkgrey;
-    border: 1px solid #d1d1d1;
+    background-color: #f5f5f5;
+    border: 1px solid rgb(149, 147, 147);
 }
 
 .cell_black { 
     background-color: black;
 }
 
-#h1 { 
-    margin-top: 40px;
-    font-weight: 300;
-    text-align: center;
-}
-
-.btns_below {
+.btns_up, .btns_below {
     text-align: center;
 }
 
 #new_btn {
-    padding: 10px 80px;
+    padding: 10px 110px;
 }
 
 #clear_btn {
+    padding: 10px 120px;
+}
+
+#black_btn {
+    padding: 10px 110px;
+}
+
+#color_btn {
     padding: 10px 90px;
 }
